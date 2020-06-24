@@ -9,6 +9,7 @@ verify_ssl = true
 
 joblib = "*"
 pandas = "*"
+scikit-learn="*"
 
 streamlit = "*"
 
