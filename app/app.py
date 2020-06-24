@@ -7,9 +7,9 @@ from PIL import Image
 
 # Upload the model and image
 
-model = open(os.path.join('app/model/SGDClassifier_mapper.pkl'), 'rb')
+model = open(os.path.join('model/SGDClassifier_mapper.pkl'), 'rb')
 predictMasterRecord = joblib.load(model)
-image = Image.open('app/image/cat.png')
+image = Image.open('image/cat.png')
 
 
 def get_table_download_link(df):
